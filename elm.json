@@ -13,6 +13,7 @@
         "Simplify",
         "Test.Html.Event",
         "Test.Html.Query",
+        "Test.Html.FormParser",
         "Test.Html.Selector"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",

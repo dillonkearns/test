@@ -11,6 +11,7 @@ import RunnerTests
 import Simplify
 import SimplifyTests
 import Test exposing (..)
+import Test.FormParserTests
 import Test.Html.EventTests
 import Test.Html.ExampleAppTests
 import Test.Html.Query.CustomNodeTests
@@ -41,6 +42,7 @@ elmHtmlTests : Test
 elmHtmlTests =
     describe "elm-html-test"
         [ Test.Html.QueryTests.all
+        , Test.FormParserTests.all
         , Test.Html.Query.MarkdownTests.all
         , Test.Html.Query.CustomNodeTests.all
         , Test.Html.SelectorTests.all
